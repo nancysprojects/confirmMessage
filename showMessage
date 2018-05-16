@@ -1,0 +1,17 @@
+function showMessage(info, title){
+  if(title == '' || title == null)
+    title = 'Error'
+    $("#dialog").html(info);
+    $("#dialog").dialog({
+      autoOpen: false, 
+      show {
+        effect:"fade",
+        duration:1000
+      },
+      modal:true, 
+      title: title
+      
+    });
+$("#dialog").dialog("open");
+return false;
+}
