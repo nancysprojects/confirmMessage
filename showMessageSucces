@@ -1,0 +1,15 @@
+function showMessageSuccess(info){
+  $("#dialog").html(info);
+  console.log("In show message " + info);
+  $("#dialog").dialog({
+    autoOpen: false,
+    show:{
+      effect:"fade",
+      duration:1000
+    },
+    modal: true,
+    title: "Success"
+  });
+  $("#dialog").dialog("open");
+  return false;
+}
