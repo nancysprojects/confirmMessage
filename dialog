@@ -18,5 +18,14 @@ $("#divID").dialog({ open:function(){
 function createE(){
   $("#duedate").datepicker();
   $("#duedate").mask(99/99/9999");
+  var eID = document.getElementById('ddlID').value;
+  if (eID === "-- Select an option --"){
+     return false;   
+  }
+  else
+  {
+     var eduedate 
+     
+  }
   
 }
