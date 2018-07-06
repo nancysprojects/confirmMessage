@@ -14,3 +14,9 @@ $("#divID").dialog({ open:function(){
       } 
    }
    });
+
+function createE(){
+  $("#duedate").datepicker();
+  $("#duedate").mask(99/99/9999");
+  
+}
