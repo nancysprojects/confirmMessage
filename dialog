@@ -32,7 +32,8 @@ function createE(){
         title: "Enter/pick a date", 
         buttons: {
           "Confirm" : function() {
-            
+            eduedate = $("#duedate").val();
+  
           }
         }
      });
