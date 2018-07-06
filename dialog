@@ -33,7 +33,8 @@ function createE(){
         buttons: {
           "Confirm" : function() {
             eduedate = $("#duedate").val();
-  
+            console.log(eduedate);
+            
           }
         }
      });
