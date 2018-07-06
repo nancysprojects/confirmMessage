@@ -20,17 +20,20 @@ function createE(){
   $("#duedate").mask(99/99/9999");
   var eID = document.getElementById('ddlID').value;
   if (eID === "-- Select an option --"){
+     alert("Before you can continue, you must select an option");
      return false;   
   }
   else
   {
      var eduedate 
-     $().dialog({
+     $("#divecreate").dialog({
         height:"auto", 
         width: 400,
         title: "Enter/pick a date", 
         buttons: {
-        
+          "Confirm" : function() {
+            
+          }
         }
      });
   }
