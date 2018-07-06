@@ -25,7 +25,14 @@ function createE(){
   else
   {
      var eduedate 
-     
+     $().dialog({
+        height:"auto", 
+        width: 400,
+        title: "Enter/pick a date", 
+        buttons: {
+        
+        }
+     });
   }
   
 }
