@@ -34,7 +34,7 @@ function createE(){
           "Confirm" : function() {
             eduedate = $("#duedate").val();
             console.log(eduedate);
-            
+            $("#btn_create_hidden").click();
           }
         }
      });
