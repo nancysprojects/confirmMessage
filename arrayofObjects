@@ -1,1 +1,6 @@
 var arrayObjects = []
+var lvaluecolumn5 
+$("#tableid").each(function(){
+  lvaluecolumn5 = $(this).find("td:nth-child()5").text();
+  
+}
