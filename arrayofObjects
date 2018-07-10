@@ -7,3 +7,7 @@ $("#tableid").each(function(){
   arrayObjects.push({val1:lvaluecolumn5, val2:lvaluecolumn7});
 }
 console.log(JSON.stringify(arrayObjects,null,4));
+arrayObjects.forEach(function (item, index, array){
+  console.log(typeof(item), index);
+  console.log(item, index, array);
+});
