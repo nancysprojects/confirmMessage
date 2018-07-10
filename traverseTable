@@ -1,4 +1,4 @@
 $("#tableid").each(function(){
-  var lvalue1 = $(this).find("td:nth-child(5)").text();
-
+  var lvaluecolumn5 = $(this).find("td:nth-child(5)").text();
+  var lvaluecolumn7 = $(this).find("td:nth-child(7)").text();
 }
