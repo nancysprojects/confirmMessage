@@ -1,6 +1,9 @@
 var arrayObjects = []
-var lvaluecolumn5 
+var lvaluecolumn5
+var lvaluecolumn7
 $("#tableid").each(function(){
-  lvaluecolumn5 = $(this).find("td:nth-child()5").text();
-  
+  lvaluecolumn5 = $(this).find("td:nth-child(5)").text();
+  lvaluecolumn7 = $(this).find("td:nth-child(7)").text();
+  arrayObjects.push({val1:lvaluecolumn5, val2:lvaluecolumn7});
 }
+console.log(JSON.stringify(arrayObjects,null,4));
